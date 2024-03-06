@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pisugar
+Version: 0.1.1
+Summary: PiSugar server python api
+Home-page: https://github.com/PiSugar/pisugar-server-py
+Author: PiSugar Team
+Author-email: app@pisugar.com
+License: Apache License 2.0
+Project-URL: Official Website, https://www.pisugar.com
+Project-URL: Bug Tracker, https://github.com/PiSugar/pisugar-server-py/issues
+Keywords: PiSugar Raspberry Pi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pisugar-server-py
+
+Python library to communicate with pisugar-server.
+
+## Requirements
+
+python 3.5+
+
+## Usage
+
+Installation
+
+    pip3 install pisugar
+
+Python test code
+
+    from pisugar import test_via_tcp
+
+    test_via_tcp(<YOUR HOST ADDR>)
+
+## License
+
+Apache License
+
+
