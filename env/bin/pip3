@@ -1,4 +1,4 @@
-#!/home/fsv/pisugar_exporter_py/env/bin/python
+#!/home/fsv/pisugar-exporter/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
